@@ -1,0 +1,518 @@
+class MyClass {
+public static void main (string [] args( {
+System.out.println("hola mi gente");
+}
+}
+{
+   System.out.println("hola mi gente
+!");
+}
+class Myclass {
+public static void main(string[ ] args) {
+System.out.println("estoy aprendiendo java mirenme");
+ }
+}
+/ ** Este es comentario hecho por juanpablo * /
+ / ** 
+class myclass {
+public static void main(strign [ ] args) {
+string name ="juan";
+int age = 42;
+double score =15.9;
+char group = 'z';
+}
+}
+import java.util.scanner;
+class myclass {
+public static void maun(string[ ] args) {
+scanner myVar = new scanner(system.in);
+system.out.println(myVar.nextline());
+}
+}
+int sum1 = 50 + 10; 
+int sum2 = sum1 + 66; 
+int sum3 = sum2 + sum2;
+int value = 23;
+int res = value % 6 // res is 5
+int test = 5;
+++test; // test is now 6
+int test = 5;
+--test; // test is now 4
+int x = 34;
+int y = ++x; // y is 35
+int x = 34;
+int y = x++; // y is 34
+int num1 = 4;
+int num2 = 8;
+num += num1; // num2 = num2 + num1;
+// num2 is 12 and num1 is 4
+int num1 = 4;
+int num2 = 8;
+num2-= num1; // num2 = num2 - num2 - num1;
+
+// num2 is 4 and num1 is 4
+
+string firstname, lastname
+firstname = "juan";
+lastname = "williams";
+
+system.out.println("my name is " + firstname +"
+"+lastname);
+import java.util.Scanner;
+
+public class Program {
+public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
+int days = scanner.nextInt();
+		
+//your code goes here
+
+int x = 7;
+if(x < 42) {
+system.out.println("hi");
+}
+int age = 30;
+if (age < 16) {
+system.out.println("too young");
+} else {
+system.out.println("welcome!");
+}
+int age = 25;
+if(age > 0) {
+if(age > 16) {
+system.out.println("welcome!");
+} else {
+system.out.println("too young");
+}
+} else {
+system.out.println("error");
+}
+int age = 25;
+
+if(age Z= 0) {
+system.out.println("error");
+} else if(age <= 16) {
+system.out.println("too young");
+} else if(age < 100) }
+system.out.println("welcome!");
+} else {
+system.out.println("really?");
+}
+int age = 25;
+int money = 100;
+
+if (age > 18 || money > 500) {
+system.out.println("welcome!");
+}
+switch (expression) {
+case value1 :
+//Statements
+break; //optional
+case value2 :
+//Statements
+break; //optional
+//You can have any number of case statements.
+default : //Optional
+//Statements
+}
+int day = 3;
+switch(day) {
+case 1:
+System.out.println("monday");
+break;
+case 2:
+system.out.println("tuesday");
+break;
+case 3;
+system.out.println("tuesday");
+break;
+case 3:
+system.out.println("wednesday");
+break;
+}int day = 3;
+switch(day) {
+case 1:
+System.out.println("monday");
+break;
+case 2:
+system.out.println("tuesday");
+break;
+case 3;
+system.out.println("tuesday");
+break;
+case 3:
+system.out.println("wednesday");
+break;
+}
+String daytype = switch(day) {
+case 1, 2, 3, 4, 5 -> "working day";
+case 6, 7 -> "weekend";
+default -> "invalid day";
+};
+for(int x = 1; x <=5 x++) {
+system.out.println(x);
+}
+int x = 1;
+do {
+system.out.println(x);
+x++;
+} while(x < 0);
+int[ ] intArr = new int [5];
+System.out.println(intArr.length);
+int[ ] primes = {2, 3, 5, 7};
+for (int t: primes) {
+system.out.println(t);
+}
+/*
+2
+3
+5
+7
+*/
+int[ ][ ] myarr = { {1, 2, 3}, {4}, {5, 6, 7} };
+myarr[0][2] = 42;
+int x = myarr[1][0];// 4
+class Myclass {
+static void sayhello() {
+system.out.println("hello world!");
+}
+public static void main(string[ ] args) {
+sayhello();
+}
+}
+class Myclass {
+static int sum(int val1, int val2) {
+return val1 + val2;
+}
+
+public static void main(string[ ] args) {
+int x = sum (2, 5);
+System.out.println(x);
+}
+}
+// returns an int value 5
+static int returnFive() {
+return 5;
+}
+
+// has a parameter
+static void sayHelloTo(String name) {
+System.out.println("Hello " + name);
+}
+
+// simply prints"Hello World!"
+static void sayHello() {
+System.out.println("hola mundo soy juan!");
+}
+public class Animal {
+void bark() {
+System.out.println("Miau-Miau");
+  }
+}
+class myclass {
+public static void main(string[ ] args) {
+animal dog = new animal();
+dog.bark();
+}
+}
+public class Vehicle {
+int maxSpeed;
+int wheels;
+String color;
+double fuelCapacity;  
+
+void horn() {
+System.out.println("Beep!");
+}  
+}
+public class Vehicle {
+private int maxSpeed;
+private int wheels;
+private String color;
+private double fuelCapacity;
+
+public void horn() {
+System.out.println("Peep!");
+}
+}
+
+public class Vehicle {
+private String color;
+
+// Getter
+public String getColor() {
+return color;
+}
+
+ // Setter
+public void setColor(String c) {
+this.color = c;
+}
+}
+public class Vehicle {
+private String color;
+Vehicle() {
+color = "blue";
+}
+}
+public class Vehicle {
+private String color;
+Vehicle(String c) {
+color = c;
+}
+}
+public class MyClass {
+public static void main(String[ ] args) {
+Vehicle v = new Vehicle("Blue");
+}
+}
+public class Vehicle {
+  private String color;
+
+Vehicle() {
+this.setColor("Red");
+}
+Vehicle(String c) {
+this.setColor(c);
+}
+
+// Setter
+public void setColor(String c) {
+this.color = c;
+}
+}
+public class myclass [
+public static void main(string[ ] args) {
+counter c1 = new counter();
+counter c2 = new counter();
+system.out.println(counter.count);
+}
+}
+Public class myclass {
+public statatic void main(string [ ] args) {
+Vehicle.horn();
+}
+}
+class myclass {
+public static final double PI = 3.14;
+public static void main(string[ ] args) {
+system.out.println(PI)
+}
+}
+import samples.Vehicle;
+
+class MyClass {
+public static void main(String[ ] args) {
+Vehicle v1 = new Vehicle();
+v1.horn();
+}
+}
+class BankAccount {
+private double balance=0;
+public void deposit(double x) {
+if(x > 0) {
+balance += x;
+}
+}
+}
+class Dog extends Animal {
+// some code
+}
+class Myclass {
+public static void main(string[ ] args) {
+dog d = new dog();
+d.eat();
+}
+}
+class Animal {
+protected int legs;
+public void eat() {
+System.out.println("Animal eats");
+}
+}
+class Dog extends Animal {
+Dog() {
+legs = 4;
+}
+}
+Class A {
+public A() {
+system.out.println("new A");
+}
+}
+class B extends A {
+public B() {
+System.out.println("new B");
+}
+}
+Class Program {
+public static void main(string[ ] args) {
+B obj = new B();
+}
+}
+class Animal {
+public void makeSound() {
+System.out.println("Grr...");
+}
+}
+class Cat extends Animal {
+public void makeSound() {
+System.out.println("Meow");
+}
+}
+class Dog extends Animal {
+public void makeSound() {
+System.out.println("Woof");
+}
+}
+a.makesound();
+b.makesound();
+int max(int a, int b) {
+if(a > b) {
+return a;
+}
+else {
+return b;
+}
+}
+double max(double a, double b) {
+if(a > b) {
+return a;
+}
+else {
+return b;
+}
+}
+abstract class Animal {
+int legs = 0;
+abstract void makeSound();
+}
+interface Animal {
+public void eat();
+public void makeSound();
+}
+class Machine {
+public void start() {
+System.out.println("Starting...");
+}
+}
+class Animal {
+String name;
+Animal(String n) {
+name = n;
+}
+@Override
+public int hashCode() {
+final int prime = 31;
+int result = 1;
+result = prime * result + ((name == null) ? 0 : name.hashCode());
+return result;
+}
+@Override
+public boolean equals(Object obj) {
+if (this == obj)
+return true;
+if (obj == null)
+return false;
+if (getClass() != obj.getClass())
+return false;
+Animal other = (Animal) obj;
+if (name == null) {
+if (other.name != null)
+return false;
+} else if (!name.equals(other.name))
+return false;
+return true;
+}
+}
+Rank a = rank.SOLDIER;
+
+switch(a) {
+case Soldier:
+system.out.println("soldier says hi!");
+break
+case sergeant:
+system.out.println("sergeant says hello!");
+break;
+case captain:
+system.out.println("captain says welcome!");
+break;
+}
+try {
+//some code
+} catch (ExceptionType1 e1) {
+//Catch block
+} catch (ExceptionType2 e2) {
+//Catch block
+} catch (ExceptionType3 e3) {
+//Catch block
+}
+class loader extends thread {
+public void run() {
+system.out.println("hello");
+}
+}
+class myclass {
+public static void main(string[ ] args) {
+loader obj = new loader();
+obj.start();
+}
+}
+public class myclass {
+public static void main(string[ ] args) {
+int value = 7;
+value=value /0;
+}
+}
+/*
+exception in thread "main"
+java.lang.arithmeticexception: / by zero 
+at myclass.main.(myclass.java:4)
+*/
+import java.util.arraylist;
+public class myclass {
+public static void main(string[ ] args {
+arraylist<string>colors = new arraylist<string>();
+colors.add("red");
+colors.add("blue");
+colors.add("green");
+colors.add("orange");
+colors.remove("green");
+
+system.out.println(colors);
+}
+}
+import java.io.File;
+
+public class MyClass {
+public static void main(String[ ] args) {
+File x = new File("C:\\sololearn\\test.txt");
+if(x.exists()) {
+System.out.println(x.getName() +  "exists!");
+}
+else { 
+System.out.println("The file does not exist");
+}
+}
+}
+try {
+File x = new File("C:\\sololearn\\test.txt");
+Scanner sc = new Scanner(x);
+while(sc.hasNext()) {
+System.out.println(sc.next());
+}
+sc.close();
+} catch (FileNotFoundException e) {
+System.out.println("Error");
+}
+import java.util.Formatter;
+
+public class MyClass {
+   public static void main(String[ ] args) {
+  try {
+    Formatter f = new Formatter("C:\\sololearn\\test.txt");
+  } catch (Exception e) {
+      System.out.println("Error");
+  }
+  }
+}
