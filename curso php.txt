@@ -1,0 +1,294 @@
+<html>head><title>Riot Games php</title>
+</head><body><?php
+echo "Bienvenido a Riot!";
+?></body><html>
+<html><head><title>My 
+  
+First PHP Page</title> 
+</head><body><script 
+language="php">  
+echo "Soporte tecnico!"; 
+</script></body></html>
+?
+eco "¡asistencia remota!";
+?>
+<?php
+echo "Yo soy Rioter!";
+?>
+<?php
+echo "A";
+echo "B";
+echo "C";
+?>
+<?php 
+echo "strong>this is a bold text.</strong>";
+?>
+<?php 
+echp"<p>Hello World!</p>";
+//This is a single-line comment
+echo "<p> Consultas de servidores!</p>";
+?>
+<?php
+echo "<p>hello world!</p>";
+/*
+this is a multi-line comment block
+that spans over 
+multiples lines 
+*/
+echo "<p>soporte tecnico!</p>";
+echo "<p>Esto es Riot!</p>";
+?>
+<?php
+$name= "john";
+$age = 25;
+// outputs "john"
+?>
+<?php
+define("msg","hola rioters!");
+echo Msg;
+//outputs "hola rioters!"
+?>
+<?php
+$string1 = "RIOT GAMES!"; //double quotes
+$string2 = 'RIOT GAMES!';  //single quotes
+?>
+<?php
+$int1 = 42; // positive number
+$int2 = -42; // negative number
+?>
+<?php
+$x = 42.168;
+?>
+<?php
+$x = true; $y = false;
+?>
+<?php
+$str = "10";
+$int = 20;
+$sum = $str + $int;
+echo ($sum);
+// outputs 30
+?>
+<?php
+$someString = "15";
+$birthyear = 1982;
+echo $someString + $birthyear;
+?>
+<?php
+$a = "RIOT";
+$hello = "RT!";
+echo $$a;
+// outputs "RT!"
+?>
+$x++; // equivalent to $x = $x+1;
+$x--; // equivalent to $x = $x-1; 
+$x++; // post-increment 
+$x--; // post-decrement 
+++$x; // pre-increment 
+--$x; // pre-decrement
+$a  = 2; $b = $a++; // $a=3,  $b=2
+$a  = 2; $b = ++$a; // $a=3,  $b=3
+$num1 = 5;
+$num2 = $num1;
+$name1 = "David"; 
+$name2 = "Amy"; 
+$name3 = "John"; 
+$names = array("David", "Amy", "John");
+$names[0] = "David";
+$names[1] = "Amy";
+$names[2] = "John";
+$people = array("David"=>"27", "Amy"=>"21", "John"=>"42");
+// or
+$people['David'] = "27";
+$people['Amy'] = "21";
+$people['John'] = "42";
+$people = array(
+'online'=>array('David', 'Amy'),
+'offline'=>array('John', 'Rob', 'Jack'),
+'away'=>array('Arthur', 'Daniel')
+);
+if (condition) {
+   code to be executed if condition is true;
+} else {
+   code to be executed if condition is false;
+}
+if (condition) {
+  code to be executed if condition is true;
+} elseif (condition) {
+  code to be executed if condition is true;
+} else {
+   code to be executed if condition is false;
+}
+<?php
+$age = 21;
+if ($age<=13) {
+echo "child.";
+}elseif ($age>13 $age<19){
+echo "teenager";
+}else{
+echo"adult";
+}
+//outputs"adult"
+?>
+while (condition is true) {
+   code to be executed;
+}
+do {
+  code to be executed;
+} while (condition is true); 
+for (init; test; increment) {
+   code to be executed;
+}
+foreach (array as $value) {
+  code to be executed;
+}
+//or
+foreach (array as $key => $value) {
+   code to be executed;
+}
+switch (n) {
+  case value1:
+    //code to be executed if n=value1
+    break;
+  case value2:
+     //code to be executed if n=value2
+     break;
+  ...
+  default:
+    // code to be executed if n is different from all labels
+}
+<?php
+  echo '<h1>Welcome</h1>';
+?>
+<html>
+  <body>
+
+  <?php include 'header.php'; ?>
+
+  <p>Some text.</p>
+  <p>Some text.</p>
+  </body>
+</html>
+<html>
+  <body>
+
+  <?php include 'header.php'; ?>
+
+  <p>This is a paragraph</p>
+  </body>
+</html>
+function functionName() {    
+   //code to be executed
+}
+function multiplyBytwo($number){
+$answer = $number *2;
+echo $answer }
+multiplybytwo(3);
+//outputs
+<?php
+echo $_SERVER['HTTP_HOST'];
+//Outputs "localhost"
+?>
+<?php
+$host = $_SERVER['HTTP_HOST'];
+$image_path = $host.'/images/';
+?>
+<?php
+require 'config.php';
+echo '<img src="'.$image_path.'header.png" />';
+?>
+<form action="first.php" method="post">
+  <p>Name: <input type="text" name="servidor" /></p>
+  <p>Age: <input type="text" name="Consulta" /></p>
+  <p><input type="submit" name="Asistencia" value="Submit" /></p>
+</form>
+<html>
+<body>
+
+Welcome <?php echo $_POST["name"]; ?><br />
+Your age: <?php echo $_POST["age"]; ?>
+
+</body>
+</html>
+<form action="actionGet.php" method="get">
+  Name: <input type="text" name="Servicios" /><br /><br />
+  Age: <input type="text" name="LINUX" /><br /><br />
+  <input type="submit" name="WINDOWS" value="Submit" />
+</form>
+<?php
+echo "Hi ".$_GET['name'].". ";
+echo "You are ".$_GET['age']." years old.";
+?>
+<?php
+// Start the session
+session_start();
+
+$_SESSION['color'] = "red";
+$_SESSION['name'] = "John";
+?>
+<?php
+// Start the session
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<body>
+<?php
+echo "su nombre es" . $_SESSION['nombre'];
+// Outputs "Su nombre es juan"
+?>
+</body>
+</html>
+setcookie(name, value, expire, path, domain, secure, httponly);
+<?php
+$value = "John";
+setcookie("user", $value, time() + (86400 * 30), '/'); 
+
+if(isset($_COOKIE['user'])) {
+  echo "Value is: ". $_COOKIE['user'];
+}
+//Outputs "Value is: John"
+?>
+$myfile = fopen("file.txt", "w");
+<?php
+$myfile = fopen("names.txt", "w");
+
+$txt = "John\n";
+fwrite($myfile, $txt);
+$txt = "David\n";
+fwrite($myfile, $txt);
+
+fclose($myfile);
+
+/* File contains:
+John
+David
+*/
+?>
+$myFile = "test.txt";
+$fh = fopen($myFile, 'a');
+fwrite($fh, "Some text");
+fclose($fh);
+<?php
+if(isset($_POST['text'])) {
+  $name = $_POST['text'];
+  $handle = fopen('names.txt', 'a');
+  fwrite($handle, $name."\n");
+  fclose($handle); 
+}
+?>
+<form method="post">
+  Name: <input type="text" name="text" /> 
+  <input type="submit" name="submit" />
+</form>
+class Person {
+  public $age; //property
+  public function speak() { //method
+    echo "Hi!"
+  }
+}
+$bob = new Person();
+echo $bob->age;
+class Demo implements AInterface, BInterface, CInterface {
+  // Functions declared in interfaces must be defined here
+}
