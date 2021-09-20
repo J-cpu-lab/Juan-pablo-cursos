@@ -24,7 +24,7 @@ echo "C";
 echo "strong>this is a bold text.</strong>";
 ?>
 <?php 
-echp"<p>Hello World!</p>";
+echp"<p>Juan Pablo Correa!</p>";
 //This is a single-line comment
 echo "<p> Consultas de servidores!</p>";
 ?>
@@ -39,9 +39,9 @@ echo "<p>soporte tecnico!</p>";
 echo "<p>Esto es Riot!</p>";
 ?>
 <?php
-$name= "john";
+$name= "juan";
 $age = 25;
-// outputs "john"
+// outputs "juan"
 ?>
 <?php
 define("msg","hola rioters!");
@@ -93,31 +93,31 @@ $num2 = $num1;
 $name1 = "David"; 
 $name2 = "Amy"; 
 $name3 = "John"; 
-$names = array("David", "Amy", "John");
-$names[0] = "David";
-$names[1] = "Amy";
+$names = array("juan", "felipe", "John");
+$names[0] = "juan";
+$names[1] = "felipe";
 $names[2] = "John";
 $people = array("David"=>"27", "Amy"=>"21", "John"=>"42");
 // or
-$people['David'] = "27";
-$people['Amy'] = "21";
+$people['juan'] = "27";
+$people['felipe'] = "21";
 $people['John'] = "42";
 $people = array(
-'online'=>array('David', 'Amy'),
+'online'=>array('juan', 'felipe'),
 'offline'=>array('John', 'Rob', 'Jack'),
 'away'=>array('Arthur', 'Daniel')
 );
 if (condition) {
-   code to be executed if condition is true;
+code to be executed if condition is true;
 } else {
-   code to be executed if condition is false;
+code to be executed if condition is false;
 }
 if (condition) {
-  code to be executed if condition is true;
+code to be executed if condition is true;
 } elseif (condition) {
-  code to be executed if condition is true;
+code to be executed if condition is true;
 } else {
-   code to be executed if condition is false;
+code to be executed if condition is false;
 }
 <?php
 $age = 21;
@@ -131,34 +131,34 @@ echo"adult";
 //outputs"adult"
 ?>
 while (condition is true) {
-   code to be executed;
+code to be executed;
 }
 do {
-  code to be executed;
+code to be executed;
 } while (condition is true); 
 for (init; test; increment) {
-   code to be executed;
+code to be executed;
 }
 foreach (array as $value) {
-  code to be executed;
+code to be executed;
 }
 //or
 foreach (array as $key => $value) {
-   code to be executed;
+code to be executed;
 }
 switch (n) {
-  case value1:
-    //code to be executed if n=value1
-    break;
-  case value2:
-     //code to be executed if n=value2
-     break;
-  ...
-  default:
-    // code to be executed if n is different from all labels
+case value1:
+//code to be executed if n=value1
+break;
+case value2:
+//code to be executed if n=value2
+break;
+
+default:
+// codigo de la pagina oficial de riot
 }
 <?php
-  echo '<h1>Welcome</h1>';
+  echo '<h1>BIENVENIDOS A RIOT</h1>';
 ?>
 <html>
   <body>
@@ -174,7 +174,7 @@ switch (n) {
 
   <?php include 'header.php'; ?>
 
-  <p>This is a paragraph</p>
+  <p>servidores y servicios</p>
   </body>
 </html>
 function functionName() {    
@@ -224,7 +224,7 @@ echo "You are ".$_GET['age']." years old.";
 session_start();
 
 $_SESSION['color'] = "red";
-$_SESSION['name'] = "John";
+$_SESSION['name'] = "Juan";
 ?>
 <?php
 // Start the session
@@ -241,28 +241,28 @@ echo "su nombre es" . $_SESSION['nombre'];
 </html>
 setcookie(name, value, expire, path, domain, secure, httponly);
 <?php
-$value = "John";
+$value = "Juan";
 setcookie("user", $value, time() + (86400 * 30), '/'); 
 
 if(isset($_COOKIE['user'])) {
   echo "Value is: ". $_COOKIE['user'];
 }
-//Outputs "Value is: John"
+//Outputs "Value is: Juan"
 ?>
 $myfile = fopen("file.txt", "w");
 <?php
-$myfile = fopen("names.txt", "w");
+$myfile = fopen("nombres.txt", "w");
 
-$txt = "John\n";
+$txt = "Juan\n";
 fwrite($myfile, $txt);
-$txt = "David\n";
+$txt = "felipe\n";
 fwrite($myfile, $txt);
 
 fclose($myfile);
 
 /* File contains:
-John
-David
+Juan
+Felipe
 */
 ?>
 $myFile = "test.txt";
@@ -287,7 +287,7 @@ class Person {
     echo "Hi!"
   }
 }
-$bob = new Person();
+$bob = empleado nuevo();
 echo $bob->age;
 class Demo implements AInterface, BInterface, CInterface {
   // Functions declared in interfaces must be defined here
