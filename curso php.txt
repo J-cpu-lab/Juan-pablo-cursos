@@ -90,8 +90,8 @@ $a  = 2; $b = $a++; // $a=3,  $b=2
 $a  = 2; $b = ++$a; // $a=3,  $b=3
 $num1 = 5;
 $num2 = $num1;
-$name1 = "David"; 
-$name2 = "Amy"; 
+$name1 = "juan"; 
+$name2 = "felipe"; 
 $name3 = "John"; 
 $names = array("juan", "felipe", "John");
 $names[0] = "juan";
